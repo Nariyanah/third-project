@@ -1,0 +1,16 @@
+.footer__li {
+  margin: 0;
+  padding: 0;
+  margin-right: 18px;
+}
+
+.footer__li:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__nav {
+    margin-right: 0;
+    margin-bottom: 32px;
+    }
+}

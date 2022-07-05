@@ -1,19 +1,11 @@
 .footer__link {
-  margin-right: 0;
-  margin-bottom: 32px;
-  padding: 16px 0 16px 0;
   text-decoration: none;
   color: #fff;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__link:hover {
-  opacity: 40%;
-}
-
-@media screen and (min-width: 768px) {
-  .footer__link {
-    margin: 0;
-    padding: 0 9px 0 0;
-  }
+  opacity: 0.5;
 }

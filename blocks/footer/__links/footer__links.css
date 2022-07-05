@@ -8,7 +8,6 @@
   line-height: 1.12;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 767px) {
@@ -16,5 +15,6 @@
     flex-direction: column;
     font-size: 24px;
     line-height: 1;
+    margin-bottom: 48px;
   }
 }
