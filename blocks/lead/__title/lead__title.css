@@ -3,7 +3,7 @@
   font-weight: 900;
   text-align: center;
   color: #ffffff;
-  margin: 0;
+  margin: 8px;
 }
 
 @media screen and (min-width: 319px) {
@@ -28,6 +28,7 @@
     font-size: 96px;
     line-height: 100px;
     min-width: 670px;
+    FONT-VARIANT: JIS04;
   }
 }
 

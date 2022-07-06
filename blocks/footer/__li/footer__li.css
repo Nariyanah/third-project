@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   margin-right: 18px;
- 
 }
 
 .footer__li:last-of-type {
@@ -13,5 +12,5 @@
   .footer__li {
     margin-right: 0;
     margin-bottom: 32px;
-    }
+  }
 }

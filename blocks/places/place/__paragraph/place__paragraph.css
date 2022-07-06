@@ -5,12 +5,23 @@
   font-size: 16px;
   line-height: 26.08px;
   color: #FFFFFF;
+  grid-area: paragraph;
   margin: 0;
   padding: 0 16px 0 16px;
 }
 
+.place__paragraph:nth-of-type(2) {
+  margin-top: 25px;
+}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
+  .place__paragraph {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1023px) {
   .place__paragraph {
     line-height: 29.34px;
   }
