@@ -2,3 +2,15 @@
   max-width: 100%;
   object-fit: cover;
 }
+
+@media screen and (min-width: 1023px) {
+  .photo-grid__image {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1247px) {
+  .photo-grid__image {
+    max-width: 284px;
+  }
+}

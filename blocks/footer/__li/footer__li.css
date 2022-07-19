@@ -1,14 +1,14 @@
 .footer__li {
   margin: 0;
   padding: 0;
-  margin-right: 18px;
+  margin-right: 17px;
 }
 
 .footer__li:last-of-type {
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .footer__li {
     margin-right: 0;
     margin-bottom: 32px;

@@ -11,6 +11,13 @@
   transition: opacity 0.2s ease-in-out;
 }
 
+@media screen and (min-width: 767px) {
+  .place__link {
+    margin: 0;
+    padding:0;
+  }
+}
+
 .place__link:hover {
   opacity: 40%;
 }
