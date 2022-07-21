@@ -4,9 +4,17 @@
   align-items: center;
 }
 
+@media screen and (min-width: 319px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .footer {
     align-items: flex-start;
     flex-direction: row;
+    min-width: 720px;
   }
 }

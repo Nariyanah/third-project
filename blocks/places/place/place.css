@@ -107,6 +107,6 @@
 
   .place:last-of-type {
     margin-bottom: 66px;
-    grid-template-rows: 35px 46px 320px 468px;
+    grid-template-rows: 55px 46px 320px 468px;
   }
 }

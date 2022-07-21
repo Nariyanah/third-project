@@ -1,25 +1,27 @@
-.intro {
-  margin: 64px 15px 54px 16px;
-  min-width: 288px;
+@media screen and (min-width: 319px) {
+  .intro {
+    margin: 64px 15px 86px 16px;
+    min-width: 288px;
+  }
 }
 
 @media screen and (min-width: 767px) {
   .intro {
    min-width: 726px;
-   margin: 89px 24px 0 24px;
+   margin: 89px 24px 86px 24px;
   }
 }
     
 @media screen and (min-width: 1023px) {
   .intro {
     max-width: 690px;
-    padding: 7px 0 92px 24px;
+    padding: 7px 0 5px 24px;
   }
 }
 
 @media screen and (min-width: 1279px) {
   .intro {
     max-width: 690px;
-    padding: 4px 0 92px 123px;
+    padding: 4px 0 7px 123px;
   }
 }

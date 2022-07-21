@@ -1,5 +1,8 @@
-.page__footer {
-  margin: 92px 48px 24px;
+@media screen and (min-width: 319px) {
+  .page__footer {
+    margin: 61px 17px 0;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 1023px) {
@@ -12,5 +15,6 @@
 @media screen and (min-width: 767px) {
   .page__footer {
     margin: 84px 24px 24px;
+    flex-direction: row;
   }
 }
