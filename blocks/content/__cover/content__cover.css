@@ -10,7 +10,14 @@
 
 @media screen and (min-width: 767px) {
   .content__cover {
-    margin-top: 5px;
+    margin-top: 6px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .content__cover {
+    margin-top: 38px;
     padding-bottom: 26px;
   }
 }
