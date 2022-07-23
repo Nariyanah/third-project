@@ -4,10 +4,6 @@
   margin-right: 17px;
 }
 
-.footer__li:last-of-type {
-  margin: 0;
-}
-
 @media screen and (min-width: 767px) {
   .footer__li {
     margin-right: 0;

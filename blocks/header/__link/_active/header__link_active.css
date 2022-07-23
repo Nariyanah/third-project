@@ -1,11 +1,4 @@
 .header__link_active {
   text-underline-offset: 2px;
   text-decoration: underline;
-  /* margin: 0 18px 0 0; */
-}
-
-@media screen and (min-width: 1023px) {
-  .header__link_active {
-    padding: 5px;
-  }
 }

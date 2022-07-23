@@ -12,8 +12,6 @@
   }
 
   .place__website:first-child {
-    margin: 0;
     padding: 0;
-    display: flex;
   }
 }

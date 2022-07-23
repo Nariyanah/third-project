@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 1279px) {
   .page__footer {
-    margin: 0 auto 0 auto;
+    margin: 1 auto 0 auto;
     flex-direction: row;
     max-height: 100px;
     align-self: flex-end;
