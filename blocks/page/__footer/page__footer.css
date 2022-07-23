@@ -5,45 +5,28 @@
   }
 }
 
-@media screen and (min-width: 1023px) {
-  .page__footer {
-    margin: 87px 24px 24px;
-    flex-direction: row;
-  }
-}
-
 @media screen and (min-width: 767px) {
   .page__footer {
     margin: 79px 24px 0 24px;
-    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 940px) {
   .page__footer {
     margin: 84px auto auto;
-    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1023px) {
   .page__footer {
-    margin: 0 auto 0 auto;
+    margin: 87px 24px 24px;
     flex-direction: row;
-    max-height: 100px;
-    align-self: flex-end;
-    max-width: 928px;
     max-height: 18px;
   }
 }
 
 @media screen and (min-width: 1279px) {
   .page__footer {
-    margin: 1 auto 0 auto;
-    flex-direction: row;
-    max-height: 100px;
-    align-self: flex-end;
     max-width: 1184px;
-    max-height: 18px;
   }
 }
