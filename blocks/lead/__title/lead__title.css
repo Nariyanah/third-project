@@ -31,6 +31,15 @@
   }
 }
 
+@media screen and (min-width: 940px) {
+  .lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    min-width: 670px;
+    margin: 40px auto 0 auto;
+  }
+}
+
 @media screen and (min-width: 1023px) {
   .lead__title {
     font-size: 96px;
@@ -43,6 +52,6 @@
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-    margin: 54px auto 0 auto;
+    margin: 54px auto -16px auto;
   }
 }

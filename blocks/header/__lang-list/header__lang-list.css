@@ -12,7 +12,7 @@
 @media screen and (min-width: 767px) {
   .header__lang-list {
     justify-content: space-between;
-    margin: 21px 3px 0 0;
+    margin: 20px -2px 0 0;
   }
 }
 

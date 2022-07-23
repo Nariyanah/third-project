@@ -24,13 +24,14 @@
 @media screen and (min-width: 1023px) {
   .footer__copyright {
     line-height: 1;
-    margin: 10px 31px 0 0;
+    margin: 181px 0 0 0;
   }
 }
 
 @media screen and (min-width: 1279px) {
   .footer__copyright {
-    line-height: 1;
-    margin: 10px 31px 0 0;
+    line-height: 16px;
+    font-size: 14px;
+    margin: 88px -4px 0 0;
   }
 }

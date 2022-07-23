@@ -1,7 +1,9 @@
 .content__photo-grid {
   margin: 0 auto 0;
 }
-    
+
+
+
 @media screen and (min-width: 1279px) {
  .content__photo-grid {
    margin: 0 48px 0;

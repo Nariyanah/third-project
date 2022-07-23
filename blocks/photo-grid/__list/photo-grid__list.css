@@ -21,7 +21,6 @@
     repeat(3, 1fr);
     grid-gap: 14px;
     margin: 0;
-    max-width: 90;
   }
 }
 

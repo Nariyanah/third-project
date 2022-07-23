@@ -1,6 +1,12 @@
 .places {
   max-width: 984px;
-  margin: 54px auto 62px;
+}
+
+@media screen and (min-width: 319px) {
+  .places {
+    display: grid;
+    margin: 13px auto -6px auto;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -12,17 +18,17 @@
     
 @media screen and (min-width: 1023px) {
   .places {
-    width: calc(100% - 24px - 24px);
-    margin-top: -7px;
-    margin-bottom: 0;
+    width: calc(100% - 24px - 22px);
+    margin: -8px 24px 0 24px;
   }
 }
     
 @media screen and (min-width: 1279px) {
   .places {
-    margin: -7px 148px 0 148px;
+    margin: -8px 148px 0 148px;
     width: calc(100% - 48px - 48px);
-    padding-bottom: 93px;
+    padding-bottom: 38px;
+    
   }
 }
     

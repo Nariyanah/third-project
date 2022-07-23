@@ -16,13 +16,33 @@
 
 @media screen and (min-width: 767px) {
   .place__paragraph {
+    max-width: 350px;
     margin: 0;
     padding: 0;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .place__paragraph {
+    max-width: 400px;
   }
 }
 
 @media screen and (min-width: 1023px) {
   .place__paragraph {
     line-height: 29.34px;
+    font-size: 18px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .place__paragraph {
+    line-height: 29.34px;
+    max-width: 487px;
+  }
+
+  .place__paragraph:nth-of-type(2) {
+    margin-top: 23px;
   }
 }

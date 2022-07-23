@@ -25,6 +25,7 @@
 
 @media screen and (min-width: 1270px) {
   .lead__caption {
-    padding: 7px 0 0 0;
+    padding: 7px 0px 0 0px;
+    align-content: flex-start;
   }
 }

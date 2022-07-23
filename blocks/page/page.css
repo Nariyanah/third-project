@@ -9,3 +9,11 @@
   font-family: 'Inter', 'Arial', sans-serif;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 942px) {
+  .page {
+    max-width: 940px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+}

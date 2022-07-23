@@ -14,3 +14,17 @@
     margin-bottom: 32px;
   }
 }
+
+@media screen and (min-width: 1023px) {
+  .footer__li {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .footer__li {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}

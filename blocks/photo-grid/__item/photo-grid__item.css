@@ -1,16 +1,25 @@
 .photo-grid__item {
   list-style-type: none;
   padding: 0;
+  font-size: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid__item {
+    min-width: 352px;
+    min-height: 264px;
+  }
 }
 
 @media screen and (min-width: 1023px) {
   .photo-grid__item {
-      max-width: 300px;
+      min-width: 300px;
+      min-height: 225px;
   }
 }
 
 @media screen and (min-width: 1247px) {
   .photo-grid__item {
-    max-width: 284px;
+    min-width: 284px;
   }
 }

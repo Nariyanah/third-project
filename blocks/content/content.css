@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (min-width: 940px) {
+  .content {
+    max-width: 940px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .content {
     grid-row-gap: 64px;

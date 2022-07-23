@@ -18,3 +18,28 @@
     min-width: 720px;
   }
 }
+
+@media screen and (min-width: 940px) {
+  .footer {
+    align-items: center;
+    flex-direction: row;
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .footer {
+    align-items: center;
+    flex-direction: row;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .footer {
+    align-self: flex-end;
+    flex-direction: row;
+    max-width: 1184px;
+    max-height: 100px;
+  }
+}
