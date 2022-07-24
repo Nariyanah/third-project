@@ -5,6 +5,7 @@
   display: grid;
   grid-gap: 12px;
   font-size: 0;
+  justify-content: center;
 }
 
 @media screen and (min-width: 567px) {
@@ -15,12 +16,19 @@
   }
 }
 
+@media screen and (min-width: 767px) {
+  .photo-grid__list {
+   padding-left: 24px;
+   padding-right: 24px;
+   margin: 0;
+  }
+}
+
 @media screen and (min-width: 1023px) {
   .photo-grid__list {
     grid-template-columns:
     repeat(3, 1fr);
     grid-gap: 14px;
-    margin: 0;
   }
 }
 

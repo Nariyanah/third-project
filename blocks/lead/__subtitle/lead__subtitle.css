@@ -20,12 +20,13 @@
 @media screen and (min-width: 1023px) {
   .lead__subtitle {
     max-width: 600px;
+    /* margin-bottom: 60px; */
   }
 }
     
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
-    padding: 16px 0 24px 0;
+    padding: 0 0 24px 0;
     margin-left: auto;
     margin-right: auto;
   }

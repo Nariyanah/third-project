@@ -4,12 +4,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-
   margin: 0;
   padding: 0;
 }
 
-.place__paragraph:nth-of-type(2) {
+.place__paragraph:last-child {
   margin-top: 26px;
 }
 

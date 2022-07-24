@@ -4,10 +4,19 @@
   font-size: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
   .photo-grid__item {
-    min-width: 352px;
+    min-width: 252px;
+    min-height: 169px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .photo-grid__item {
+    max-width: 352px;
     min-height: 264px;
+    /* padding: 0; */
+    margin: 0;
   }
 }
 

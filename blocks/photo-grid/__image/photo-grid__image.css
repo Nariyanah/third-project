@@ -10,6 +10,13 @@
   }
 }
 
+@media screen and (min-width: 568px) {
+  .photo-grid__image {
+    min-width: 252px;
+    min-height: 169px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .photo-grid__image {
     min-width: 352px;

@@ -21,8 +21,6 @@
 @media screen and (min-width: 1023px) {
   .page__footer {
     margin: 88px 48px 0 48px;
-    flex-direction: row;
-    max-height: 18px;
     align-items: flex-end;
   }
 }

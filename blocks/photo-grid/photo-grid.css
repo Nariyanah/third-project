@@ -2,7 +2,7 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   max-width: 1184px;
   margin-bottom: 55px;
-  }
+}
 
 @media screen and (min-width: 767px) {
   .photo-grid {
@@ -12,15 +12,15 @@
 }
 
 @media screen and (min-width: 1023px) {
-   .photo-grid {
-      max-width: 928px;
-      align-content: center;
-   }
+  .photo-grid {
+    max-width: 928px;
+    align-content: center;
+  }
 }
 
 @media screen and (min-width: 1279px) {
   .photo-grid {
-    margin: 92px 48px  12px;
+    margin: 92px 48px 12px;
     max-width: 1184px;
   }
 }

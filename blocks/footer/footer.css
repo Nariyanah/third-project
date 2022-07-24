@@ -13,7 +13,6 @@
 
 @media screen and (min-width: 767px) {
   .footer {
-    align-items: flex-start;
     flex-direction: row;
     min-width: 720px;
   }
@@ -36,6 +35,5 @@
   .footer {
     align-self: flex-end;
     max-width: 1184px;
-    max-height: 100px;
   }
 }

@@ -8,6 +8,7 @@
   padding-bottom: 24px;
   margin-right: 18px;
   margin-bottom: 32px;
+  padding-right: 0;
 }
 
 .footer__link:hover {

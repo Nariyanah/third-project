@@ -17,12 +17,6 @@
   }
 }
 
-@media screen and (min-width: 767px) {
-  .place__link {
-    padding: 0;
-  }
-}
-
 .place__link:hover {
-  opacity: 70%;
+  opacity: 0.8;
 }
