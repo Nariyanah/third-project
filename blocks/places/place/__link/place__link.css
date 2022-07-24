@@ -11,6 +11,12 @@
   transition: opacity 0.2s ease-in-out; 
 }
 
+@media screen and (min-width: 319px) {
+  .place__link {
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .place__link {
     padding: 0;

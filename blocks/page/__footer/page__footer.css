@@ -1,13 +1,14 @@
 @media screen and (min-width: 319px) {
   .page__footer {
-    margin: 61px 17px 0;
+    margin: 61px 17px  0;
     flex-direction: column;
   }
 }
 
 @media screen and (min-width: 767px) {
   .page__footer {
-    margin: 79px 24px 0 24px;
+    margin: 80px 24px 0 24px;
+    flex-direction: row;
   }
 }
 
@@ -19,14 +20,16 @@
 
 @media screen and (min-width: 1023px) {
   .page__footer {
-    margin: 87px 24px 24px;
+    margin: 88px 48px 0 48px;
     flex-direction: row;
     max-height: 18px;
+    align-items: flex-end;
   }
 }
 
 @media screen and (min-width: 1279px) {
   .page__footer {
     max-width: 1184px;
+    margin: 70px 48px 0 48px;
   }
 }

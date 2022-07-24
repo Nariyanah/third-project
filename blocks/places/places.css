@@ -9,23 +9,32 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 1280px) {
+  .places {
+    width: calc(100% - 24px - 24px);
+    grid-row-gap: 79px;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .places {
     width: calc(100% - 48px - 48px);
-    margin-bottom: 89px;
+    margin-bottom: 92px;
+    grid-row-gap: 80px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
     width: calc(100% - 24px - 24px);
-    grid-row-gap: 73px;
+    grid-row-gap: 70px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     width: 100%;
-    grid-row-gap: 50px;
+    grid-row-gap: 49px;
+    margin-bottom: 57px;
   }
 }

@@ -31,13 +31,5 @@
 @media screen and (min-width: 1023px) {
   .footer__links {
     margin-top: 171px;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-}
-
-@media screen and (min-width: 1279px) {
-  .footer__links {
-    margin-top: 127px;
   }
 }
