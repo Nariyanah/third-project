@@ -5,7 +5,7 @@
 @media screen and (min-width: 319px) {
   .content__photo-grid {
     margin: 0;
-    padding-bottom: 0;
+    padding-bottom: 63px;
   }
 }
 

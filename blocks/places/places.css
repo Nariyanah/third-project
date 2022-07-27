@@ -28,6 +28,7 @@
   .places {
     width: calc(100% - 24px - 24px);
     grid-row-gap: 55px;
+    margin-bottom: 27px;
   }
 }
 
