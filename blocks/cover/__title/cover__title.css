@@ -38,7 +38,8 @@
 
 @media screen and (min-width: 1023px) {
   .cover__title {
-    margin-top: -10px;
+    margin-top: 0;
+    padding: 0;
   }
 }
 

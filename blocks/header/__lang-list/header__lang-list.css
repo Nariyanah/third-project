@@ -10,10 +10,12 @@
   padding-left: 0;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .header__lang-list {
-    justify-content: space-between;
-    margin: 0 0 4px 9px;
+    padding: 0;
+    min-width: auto;
+    gap: 18px;
+    margin-bottom: 5px;
   }
 }
 

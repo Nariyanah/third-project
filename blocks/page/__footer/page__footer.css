@@ -5,9 +5,9 @@
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .page__footer {
-    margin: 80px 24px 0 24px;
+    margin: 83px 24px 0 24px;
     flex-direction: row;
   }
 }
@@ -18,14 +18,14 @@
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .page__footer {
     margin: 88px 48px 0 48px;
     align-items: flex-end;
   }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1284px) {
   .page__footer {
     max-width: 1184px;
     margin: 70px 48px 0 48px;

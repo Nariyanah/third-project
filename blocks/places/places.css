@@ -20,15 +20,15 @@
   .places {
     width: calc(100% - 48px - 48px);
     margin-bottom: 92px;
-    grid-row-gap: 72px;
+    grid-row-gap: 80px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
     width: calc(100% - 24px - 24px);
-    grid-row-gap: 55px;
-    margin-bottom: 27px;
+    grid-row-gap: 72px;
+    margin-bottom: 92px;
   }
 }
 
